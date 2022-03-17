@@ -6,7 +6,7 @@ function factorial(n) {
   for (let index = 1; index <= n; index++) {
     result = result * index
   }
-  return result;
+  return result
 }
 
 factorial(0); // 1
