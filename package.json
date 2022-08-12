@@ -8,7 +8,7 @@
   },
   "scripts": {
     "test": "npm run karma",
-    "karma": "npx karma...",
+    "karma": "karma start karma.conf.js",
     "lint": "eslint \"./*-module/**/*.js\"",
     "lint:fix": "eslint --fix \"./*-module/**/*.js\""
   },
